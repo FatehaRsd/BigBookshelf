@@ -1,0 +1,241 @@
+body {
+    width: 1248px;
+    margin: auto;
+    /* padding-left: 24px;
+    padding-right: 24px;
+    background-color: blanchedalmond; */
+}
+/* Header */
+.header {
+    position: relative;
+    width: 1200px;
+    height: 96px;
+    top: 24px;
+    margin: auto;
+    /* margin-left: 24px;
+    margin-right: 24px; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 24px 0px 24px;
+    background: #2A2C2E;
+}
+
+.box-logo img {
+    width: 166px;
+    height: 40px;
+    margin-top: 26px;
+    margin-bottom: 28px;
+    display: flex;
+    
+}
+
+.nav-header {
+    width: 456px;
+    height: 24px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    font-style: normal;
+    font-family: 'Clash Grotesk Variable';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.0015em;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* .active {
+    color: #F4D867;
+} */
+
+.box-right {
+    display: flex;
+    width: 300px;
+    height: 96px;
+    /* margin: 24px 0px 0px 0px; */
+}
+
+.icon {
+    width: 112px;
+    height: 24px;
+    padding: 10px 30px 20px 30px;
+    margin-top: 28px;
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.button-login {
+    width: 45px;
+    height: 20px;
+    /* top: 20px;
+    left: 20px; */
+    border-radius: 16px;
+    padding: 16px 28px 16px 28px;
+    /* gap: 12px; */
+    background-color: #F4CE47;
+    font-family: 'Clash Grotesk Variable';
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin: 24px 0px 5px 24px;
+    cursor: pointer;
+}
+
+/* Container 1 */
+.container1 {
+    position: relative;
+    width: 1248px;
+    height: 433px;
+    margin: auto;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1-1 {
+    position: relative;
+    width: 1248px;
+    height: 348px;
+    margin-top: 25px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+}
+
+h1 {
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: 'Clash Grotesk Variable';
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.container1-box1 {
+    width: 620px;
+    height: 348px;
+    border-radius: 20px;
+    /* padding-right: 32px; */
+    background: #2A2C2E;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    width: 381px;
+    height: 80px;
+    line-height: 40px;
+    letter-spacing: 0.25%;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Clash Grotesk Variable';
+    color: white;
+    margin: 0px;
+    padding-left: 24px;
+    padding-top: 24px;
+    gap: 20px;
+    display: flex;
+}
+
+p {
+    width: 383px;
+    height: 72px;
+    line-height: 24px;
+    padding-left: 24px;
+    letter-spacing: 0.15%;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Literata';
+    color: white;
+    margin-top: 24px;
+}
+
+.button-browse {
+    /* position: absolute; */
+    width: 105px;
+    height: 24px;
+    margin-top: 40px;
+    left: 0px;
+    border-radius: 16px;
+    padding: 16px 28px 16px 28px;
+    gap: 12px;
+    border: 2px solid;
+    border-color: #F4CE47;
+    font-family: 'Clash Grotesk Variable';
+    font-weight: 500;
+    font-size: 16px;
+    color: #F4CE47;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-left: 24px;
+    /* margin: 24px 0px 0px 0px; */
+    cursor: pointer;
+}
+
+.icon-search img{
+    position: absolute;
+    width: 297px;
+    height: 297px;
+    left: 323px;
+    bottom: 0px;
+}
+
+.image1 {
+    width: 620px;
+    height: 348px;
+    margin-right: 0px;
+}
+
+.image2 {
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    left: 644px;
+    top: 16px;
+}
+
+/* Container 2 */
+.container2 {
+    position: absolute;
+    width: 1296px;
+    height: 882px;
+    top: 659px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    background-color: #2A2C2E;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk Variable';
+    src: url(./asset/font/ClashGrotesk_Complete/ClashGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url(./asset/font/Literata/Literata-Regular.ttf);
+}
+
+
+
+
+
+
